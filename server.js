@@ -22,8 +22,6 @@ app.use((req, res) => {
 })
 app.use(express.static(__dirname + "/public"))
 
-
-
-app.listen(port, hostname, ()=> {
+app.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
-})
+});
